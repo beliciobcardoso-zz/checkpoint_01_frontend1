@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    padding: 0 20px;
+    color: #fff;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.logo>img {
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+nav>ul {
+    display: inline-flex;
+}
+
+nav>ul>li {
+    display: flex;
+    align-items: center;
+}
+
+nav>ul>li>a {
+    padding: 0 10px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+nav>ul>li>a:hover {
+    background-color: #00ffff;
+    font-weight: 900;
+    color: #000000;
+    cursor: pointer;
+}
+
+#home {
+    height: 100vmin;
+    padding-top: 60px;
+    background-image: url('../img/salvador_02.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#home>p {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #000;
+    font-size: 20px;
+    width: 550px;
+    position: relative;
+    border-radius: 10px;
+    left: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#videos {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+#curiosidades {
+    background-color: khaki;
+    padding: 50px;
+}
+
+#curiosidades>ul {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+footer {
+    background-color: darkblue;
+    height: 100px;
+    text-align-last: center;
+    padding-top: 10px;
+}
+
+footer>a>img {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+footer>div {
+    color: #fff;
+}
